@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>逛街市 - 群班語文</title>
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+    body {
+      font-family: "PingFang TC", "Microsoft JhengHei", sans-serif;
+      background-color: #f0f2f5;
+      color: #333;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 20px 15px;
+      margin: 0;
+    }
+    h1 {
+      color: #1a365d;
+      margin-bottom: 24px;
+      font-size: 2rem;
+      text-align: center;
+    }
+    .card {
+      background: #ffffff;
+      border-radius: 16px;
+      box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
+      max-width: 650px;
+      width: 100%;
+      overflow: hidden;
+      margin-bottom: 24px;
+      transition: transform 0.2s ease;
+    }
+    .card:hover {
+      transform: translateY(-2px);
+    }
+    .card img {
+      width: 100%;
+      height: auto;
+      display: block;
+    }
+    .content {
+      padding: 24px;
+      text-align: center;
+    }
+    .full-text {
+      font-size: 1.25rem;
+      line-height: 1.8;
+      margin-bottom: 20px;
+      color: #2d3748;
+      text-align: justify;
+    }
+    .sentence-text {
+      font-size: 1.4rem;
+      font-weight: 600;
+      line-height: 1.6;
+      margin-bottom: 16px;
+      color: #2b6cb0;
+    }
+    .section-title {
+      font-size: 0.95rem;
+      font-weight: bold;
+      color: #718096;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      margin-bottom: 12px;
+      display: block;
+    }
+    audio {
+      width: 100%;
+      height: 44px;
+      outline: none;
+      border-radius: 8px;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>逛街市</h1>
+
+  <!-- 封面與全文朗讀：image1 + media1 -->
+  <div class="card">
+    <img src="image1.png" alt="逛街市封面">
+    <div class="content">
+      <span class="section-title">課文全文朗讀</span>
+      <p class="full-text">
+        今天，我們去街市買水果，小販在菜檔賣蔬菜，小販在魚檔賣魚類，顧客在肉檔買肉類，我們去水果檔買提子和香蕉，街市購物樂趣多。
+      </p>
+      <audio controls src="media1.mp3"></audio>
+    </div>
+  </div>
+
+  <!-- 句一：image4 + media2 -->
+  <div class="card">
+    <img src="image4.png" alt="今天，我們去街市買水果">
+    <div class="content">
+      <span class="section-title">句一</span>
+      <p class="sentence-text">今天，我們去街市買水果，</p>
+      <audio controls src="media2.mp3"></audio>
+    </div>
+  </div>
+
+  <!-- 句二：image5 + media3 -->
+  <div class="card">
+    <img src="image5.png" alt="小販在菜檔賣蔬菜">
+    <div class="content">
+      <span class="section-title">句二</span>
+      <p class="sentence-text">小販在菜檔賣蔬菜，</p>
+      <audio controls src="media3.mp3"></audio>
+    </div>
+  </div>
+
+  <!-- 句三：image6 + media4 -->
+  <div class="card">
+    <img src="image6.png" alt="小販在魚檔賣魚類">
+    <div class="content">
+      <span class="section-title">句三</span>
+      <p class="sentence-text">小販在魚檔賣魚類，</p>
+      <audio controls src="media4.mp3"></audio>
+    </div>
+  </div>
+
+  <!-- 句四：image7 + media5 -->
+  <div class="card">
+    <img src="image7.png" alt="顧客在肉檔買肉類">
+    <div class="content">
+      <span class="section-title">句四</span>
+      <p class="sentence-text">顧客在肉檔買肉類，</p>
+      <audio controls src="media5.mp3"></audio>
+    </div>
+  </div>
+
+  <!-- 句五：image8 + media7 -->
+  <div class="card">
+    <img src="image8.jpeg" alt="我們去水果檔買提子和香蕉">
+    <div class="content">
+      <span class="section-title">句五</span>
+      <p class="sentence-text">我們去水果檔買提子和香蕉，</p>
+      <audio controls src="media7.mp3"></audio>
+    </div>
+  </div>
+
+  <!-- 結尾：image9 + media8 -->
+  <div class="card">
+    <img src="image9.png" alt="街市購物樂趣多">
+    <div class="content">
+      <span class="section-title">結尾</span>
+      <p class="sentence-text">街市購物樂趣多。</p>
+      <audio controls src="media8.mp3"></audio>
+    </div>
+  </div>
+
+</body>
+</html>
